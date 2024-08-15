@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="img/Avatar.png" type="image/x-icon" />
+    <title>Contact David Omotoso</title>
+  </head>
+  <body>
+    <!-- Main content -->
+    <main>
+      <!-- Navbar -->
+      <nav></nav>
+      <div class="contact">
+        <h1>Contact form</h1>
+
+        <form
+          action="https://formsubmit.co/davidomotoso45@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://david-portfolio-psi.vercel.app/Submitted form.html"
+          />
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="hidden" name="_template" value="box" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thank you. David would get in touch with you soon"
+          />
+          <label for="name"
+            >Name
+            <input
+              type="text"
+              name="Username"
+              id="name"
+              name="Name"
+              placeholder="Your name"
+              autocomplete="name"
+              required
+            />
+          </label>
+          <label for="email"
+            >Email
+            <input
+              type="email"
+              name="Email"
+              id="email"
+              name="Email Address"
+              autocomplete="email"
+              placeholder="john.doe@example.com"
+              autocomplete
+              required
+            />
+          </label>
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            name="Subject"
+            autocomplete="on"
+            placeholder="Type your message title here"
+            required
+          />
+          <label for="message"
+            >Message
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="50"
+              rows="10"
+              name="Message"
+              autocomplete="on"
+              placeholder="Type your message here"
+              required
+            ></textarea>
+          </label>
+          <button type="submit" id="btn">Send Message</button>
+        </form>
+      </div>
+      <footer></footer>
+    </main>
+    <script src="Portfolio.js"></script>
+  </body>
+</html>
